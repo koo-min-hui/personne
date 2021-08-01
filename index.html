@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>papa</title>
+    <style type="text/css">
+
+      details > summary:first-of-type {
+        display: list-item;
+        counter-increment: list-item 0;
+        list-style: inside disclosure-closed;
+      }
+      details[open] > summary:first-of-type {
+        list-style-type: disclosure-open;
+      }
+
+
+
+      *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        trasition:0.5s;
+      }
+      P{
+        font-size :12px;
+        font-weight: thin;
+        line-height: 5px;
+        font-style:Helvetica;
+        margin:10px;
+      }
+      h1{
+        font-size :15px;
+        font-style:Helvetica;
+        margin:10px;
+      }
+      .p1{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+      }
+      .card{
+        width:1080px;
+        height:765px;
+        background:url("./img/p1.png")no-repeat center center fixed;
+        padding:10px;
+        margin:10px 10px;
+        transition: 1s;
+        webkit-filter: blur(4rem);
+        filter: blur(4rem);
+        -webkit-transition: -webkit-filter .5s;
+        transition: -webkit-filter .5s;
+        -o-transition: filter .5s;
+        transition: filter .5s;
+        transition: filter .5s, -webkit-filter .5s;
+      }
+      .p1:hover .card{
+        filter:blur(0px);
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+<div class= "h1">
+  <h1><span>Personne invisible</span>
+
+      <details>
+      <summary>Présentation du projet</summary>
+      <div>
+      <div class= "open">
+      <p>Il y a beaucoup de photos de famille chez moi. Mais la personne la plus difficile à voir dans l'album de famille est mon père.  </p>
+<p>Depuis qu'il a pris la plupart de ses photos de famille, il est devenu celui qui n'est pas resté dans l'album même s'il était toujours avec nous. </p>
+<p>C'était la même chose pour moi, pas pour l'album. Alors j'ai pensé que si je prenais une radiographie de ma tête, mon père ressemblerait à ça dans ma mémoire.</p>
+<p>La silhouette de papa se fond dans l'environnement, se brouille comme un morceau de mémoire et le visage est méconnaissable.</p>
+<p>En grandissant, ma relation avec mon père est devenue négligée et je pensais que je ne connaissais pas bien mon père depuis un jour. </p>
+<p>Donc le père que je ne connais pas devient de plus en plus obscurci par moi. En fait, son apparence n'est pas claire, elle est nuageuse, mais il existe toujours.</p>
+      </div>
+    </div>
+    </details>
+
+    <details>
+    <summary>Série de travaux</summary>
+    <div>
+    <div class= "open">
+    <center>
+      </br>
+    <p><img src="./img/p2.png" width="1280px"> </p>
+    <p><img src="./img/p3.png" width="1280px"> </p>
+    <p><img src="./img/p4.png" width="1280px"> </p>
+    <p><img src="./img/p5.png" width="1280px"> </p>
+    <p><img src="./img/p6.png" width="1280px"> </p>
+    <p><img src="./img/p7.png" width="1280px"> </p>
+    <p><img src="./img/p8.png" width="1280px"> </p>
+    <p><img src="./img/p9.png" width="1280px"> </p>
+    <p><img src="./img/p10.png" width="1280px"> </p>
+  </center>
+    </div>
+  </div>
+  </details>
+  </h1>
+  </div>
+</header>
+
+
+
+
+ <div class = "p1">
+   <div class ='card'>
+   </div>
+ </div>
+  </body>
+
+</html>
